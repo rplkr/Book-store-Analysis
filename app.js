@@ -8,8 +8,8 @@ const url = "https://public.tableau.com/views/Bookstoreanalysis_17203272752180/D
 const vizContainer = document.getElementById('vizContainer');
 const options = {
     hideTabs: true,
-    height: 1000,
-    width: 1200,
+    height: 1200,
+    width: 1400,
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
